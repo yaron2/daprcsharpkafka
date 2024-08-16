@@ -20,6 +20,7 @@ dapr run --app-id subscriber --app-port 5141 --resources-path ./components -- do
 ### Run the publisher
 
 ```bash
+cd publisher
 dapr run --app-id publisher --resources-path ./components -- dotnet run
 ```
 
